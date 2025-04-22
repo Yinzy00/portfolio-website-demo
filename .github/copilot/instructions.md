@@ -7,7 +7,8 @@
 
 ### Folder Layout
 
-- work feature based: folder per feature
+- work feature based: folder per feature in the Portfolio.Library project
+    - So all feature logic should be in the Library project
 - files stay small;
 
 ### Models
