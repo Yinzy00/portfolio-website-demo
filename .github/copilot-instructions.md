@@ -28,7 +28,7 @@ Only do exactly what is asked. Don't update additional files to make them better
 
 - every request + handler sit in the **same file**
 - use clear names: e.g. `CreateAppointmentCommand` or `GetAppointmentQuery`
-- Don't use a service layer or services, put the code directly in the handler for that part of the feature
+- Don't use services for code that isnt being reused, put the code directly in the handler for that part of the feature. Only put a function in a service if it is being reused in multiple handlers.
 - every bit of crud goes through handlers; nowhere else touches the db
 
 ### Sample Layout
