@@ -32,7 +32,7 @@ builder.Services.AddSwaggerGen(options =>
 builder.Services.AddMediatR(config => 
 {
     config.RegisterServicesFromAssembly(typeof(Program).Assembly);
-    config.RegisterServicesFromAssembly(typeof(Portfolio.Library.Class1).Assembly);
+    config.RegisterServicesFromAssembly(typeof(Portfolio.Library.Library).Assembly);
 });
 
 var app = builder.Build();
