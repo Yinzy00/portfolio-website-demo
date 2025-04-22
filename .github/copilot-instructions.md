@@ -3,7 +3,6 @@ Only do exactly what is asked. Don't update additional files to make them better
 ### Tech Stack
 
 - dotnet 9, c#
-
 - mediatr (cqrs)
 - domain‑driven design
 
@@ -29,7 +28,7 @@ Only do exactly what is asked. Don't update additional files to make them better
 
 - every request + handler sit in the **same file**
 - use clear names: e.g. `CreateAppointmentCommand` or `GetAppointmentQuery`
-- Don't use services for code that isn't reused, put that code directly in the handler
+- Don't use a service layer or services, put the code directly in the handler for that part of the feature
 - every bit of crud goes through handlers; nowhere else touches the db
 
 ### Sample Layout
