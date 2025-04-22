@@ -51,4 +51,4 @@ Appointments/
 
 ### Database
 
-- Use a json file as database for development and testing purposes. This file should be located in the `Data` folder of the project. The file should be named `data.json` and should contain a JSON array of objects representing the data in the database.
+- Use a json file as database for development and testing purposes. This file should be located in the `Data` folder of the project. The file should be named `[Domain].json` and should contain a JSON array of objects representing the data in the database. As if each file is a database table.
