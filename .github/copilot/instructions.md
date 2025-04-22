@@ -1,3 +1,5 @@
+Only do exactly what is asked. Don't update additional files to make them better formated or add comments.
+
 ### Tech Stack
 
 - dotnet 9, c#
