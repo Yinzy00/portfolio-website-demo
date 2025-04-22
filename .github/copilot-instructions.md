@@ -23,11 +23,13 @@ Only do exactly what is asked. Don't update additional files to make them better
 - one controller, one action
     - examples: `GetAppointmentsController`, `CreateAppointmentController`
 - keep controllers thin: no logic, only `mediator.Send(...)`
+- Controllers should be located in the feature folder in the Library project.
 
 ### MediatR
 
 - every request + handler sit in the **same file**
 - use clear names: e.g. `CreateAppointmentCommand` or `GetAppointmentQuery`
+- Don't use services for code that isn't reused, put that code directly in the handler
 - every bit of crud goes through handlers; nowhere else touches the db
 
 ### Sample Layout
