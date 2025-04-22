@@ -25,7 +25,7 @@
 ### MediatR
 
 - every request + handler sit in the **same file**
-- use clear names: `[Verb][Entity]Command` or `[Verb][Entity]Query`
+- use clear names: e.g. `CreateAppointmentCommand` or `GetAppointmentQuery`
 - every bit of crud goes through handlers; nowhere else touches the db
 
 ### Sample Layout
